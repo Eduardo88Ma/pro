@@ -1,0 +1,57 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+
+#menu a {
+    font-size: 18px;
+    font-weight: bold;
+    color: #3f3f3f;
+}
+
+#menu button{
+    font-size: 18px;
+    font-weight: bold;
+
+}
+
+.carousel-inner{
+    max-height: 39rem;
+}
+
+
+
+@media (max-width:768px){
+#intro{
+    width: 90% !important;
+}
+.servicio-fila{
+    width: 100% !important;
+    text-align: center;
+}
+}
+
+
+
+/*contact ============= formul==============*/
+#contenedor-formulario {
+    position:absolute;
+    top:30%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background: #fbfafa;
+    max-width: 500px;
+}
+#titulo-formulario{
+    color:#3f3f3f;
+}
+
+#bg-contacto {
+    position: relative;
+    top: 130px;
+}
+#seccion-contacto{
+    background-color: #1b2a4e;
+    min-height: 500px;
+    position: relative;
+}
